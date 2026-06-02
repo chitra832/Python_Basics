@@ -84,4 +84,57 @@
 #     else:
 #         print("zero")
 
+#8  Let’s create a Simple calculator that performs arithmetic operations. Create
+# a function calculator that performs addition, subtraction,
+# multiplication, or division based on the parameter.
+# [ operation parameter can have values ‘+’ , ‘-’ , '*’ & ‘/’
 
+# def calculator(a, b, operator):
+#     total = None
+#     if(operator == "+"):
+#         total = a+b
+#     elif(operator == "-"):
+#         total = a - b
+#     elif(operator == "/"):
+#         total = a/b
+#     else:
+#         total = a*b
+#     print(total)
+
+# num1 = int(input("enter 1st num:"))
+# num2 = int(input("enter 2nd num:"))
+# operator = input("enter operation to perform:")
+# calculator(num1, num2, operator)
+
+#9 Let’s create a “ Number Guessing Game ”. Given a secret number (already
+# decided by you), write a program that asks the user to guess it and prints:
+# •"Too high" if the guess is above the number
+# •"Too low" if the guess is below
+# •"Correct!" if the guess matches
+
+# secret_num = 17
+# while True:
+#     guess = int(input("Guess a number:"))
+#     if(guess > secret_num):
+#         print("too high")
+#     elif(guess < secret_num):
+#         print("too low")
+#     else:
+#         print("correct")
+
+
+#10 Write a function is_prime(n) that returns True if n is a prime number and
+#False otherwise, using a loop
+
+# def is_prime(n):
+#     if n <= 1:
+#         return False
+#     for i in range(2, n):
+#         if(n % i == 0):
+#             return False
+#     return True
+# num = int(input("enter a num: "))
+# if is_prime(num):
+#     print("Prime")
+# else:
+#     print("non prime")
