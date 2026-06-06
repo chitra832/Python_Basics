@@ -252,9 +252,9 @@ class Cow(Animal):
     def make_sound(self):
         print("Moo!")
 l1 = Lion()
-# l1.make_sound()
+l1.make_sound()
 m1 = Cow()
-# m1.make_sound()
+m1.make_sound()
 
 
 #Polymorphism========================
@@ -275,6 +275,7 @@ m1 = Cow()
 
 #2nd duck typing
 # if something walks like a duck and quack like a duck
+# same fucntion exist in both classes, no matter if both classes are related or not
 
 class Teacher():
     def get_designation(self):
